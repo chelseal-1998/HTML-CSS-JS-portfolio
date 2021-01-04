@@ -1,0 +1,85 @@
+.navbar {
+  background-color: white;
+  color: black;
+  height: 65px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: teal;
+  margin-right: 400px;
+  margin-left: 375px;
+}
+
+.links {
+  font-size: 20px;
+  float: center;
+  margin-right: 50px;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  color: black;
+  float: right;
+}
+
+.links a:hover {
+  color: teal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  background: teal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h2 {
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: grey;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
